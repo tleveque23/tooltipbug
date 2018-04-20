@@ -3,5 +3,6 @@
 </p>
 
 <p>
-  <button (click)="navigate()">Click me!</button>
+  <button (click)="navigate()"
+          [pTooltip]="'Tooltip of the button'" tooltipPosition="right" showDelay="1000">Click me!</button>
 </p>

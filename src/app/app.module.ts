@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { MyNewRouteComponent } from './my-new-route/my-new-route.component';
+import { TooltipModule } from 'primeng/primeng';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { MyNewRouteComponent } from './my-new-route/my-new-route.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
